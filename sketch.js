@@ -158,7 +158,7 @@ function drawAlien1() {
 	//draw bg
 	fill(0,21,61);
 	rect(0,0,width,height);
-	fill(255, 1, 15);
+	fill(60, 66, 59);
 	ellipse(555, 70, 30, 40);
 	ellipse(555, 115, 40, 60);
 	ellipse(545, 140, 10, 40);
@@ -173,7 +173,7 @@ function drawAlien1() {
 	ellipse(548, 66, 11, 15);
 	ellipse(562, 66, 11, 15);
 	ellipse(556, 80, 14, 9);
-	fill(168, 176, 164);
+	fill(255, 1, 15);
 	ellipse(548, 66, 5, 5);
 	ellipse(562, 66, 5, 5);
 }
@@ -255,7 +255,7 @@ noStroke()
 }
 function drawAlien3() {
 	//draw alien 3
-	fill(255, 1, 15);
+	fill(87, 87, 87);
 	ellipse(145, 160, 30, 40);
 	ellipse(145, 205, 40, 60);
 	ellipse(135, 230, 10, 40);
@@ -270,14 +270,14 @@ function drawAlien3() {
 	ellipse(138, 156, 11, 15);
 	ellipse(152, 156, 11, 15);
 	ellipse(146, 170, 14, 9);
-	fill(168, 176, 164);
+	fill(255, 1, 15);
 	ellipse(138, 156, 5, 5);
 	ellipse(152, 156, 5, 5);
 
 }
 function drawAlien4() {
 	//draw alien 4
-	fill(232, 251, 13);
+	fill(255, 170, 0);
 	ellipse(255, 170, 30, 40);
 	ellipse(255, 215, 40, 60);
 	ellipse(245, 240, 10, 40);
@@ -298,7 +298,7 @@ function drawAlien4() {
 
 }
 function drawAlien5() {
-	fill(255, 81, 214);
+	fill(80, 243, 176);
 	ellipse(455, 170, 30, 40);
 	ellipse(455, 215, 40, 60);
 	ellipse(445, 240, 10, 40);
