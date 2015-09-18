@@ -13,14 +13,14 @@ background(167, 213, 242);
 	// set a fill color
 	fill(31, 161, 255);
 
-var uFo = random(1);
+  //var uFo = random(0,1);
 
 	// draw UFO
-if (random > 0.8) {
-		// drawiing UFO 1
+	//if (uFo > 0.8) {
+		// drawing UFO 1
 		fill(107, 112, 105);
-		ellipse(240, 160, 150, 140);
-		ellipse(238, 190, 290, 90);
+	ellipse(240, 160, 150, 140);
+	ellipse(238, 190, 290, 90);
 		fill(22, 23, 21);
 		ellipse(241, 147, 120, 90);
 		fill(107, 112, 105);
@@ -34,24 +34,24 @@ if (random > 0.8) {
 		ellipse(115, 195, 18, 18);
 		ellipse(363, 195, 18, 18);
 		ellipse(280, 215, 18, 18);
-
-	} else {
+//} else {
+	 // drawing UFO 2
    fill(107, 112, 105);
-   ellipse(260, 180, 150, 140);
-   ellipse(258, 210, 290, 90);
+   ellipse(550, 240, 150, 140);
+   ellipse(548, 270, 290, 90);
    fill(22, 23, 21);
-   ellipse(261, 167, 120, 90);
+   ellipse(551, 227, 120, 90);
    fill(107, 112, 105);
-   ellipse(258, 210, 290, 90);
+   ellipse(548, 270, 290, 90);
    fill(246, 246, 246);
-   ellipse(258, 235, 20, 20);
-   ellipse(175, 228, 20, 20);
-   ellipse(340, 228, 20, 20);
+   ellipse(548, 295, 20, 20);
+   ellipse(465, 288, 20, 20);
+   ellipse(630, 288, 20, 20);
    fill(255, 244, 24);
-   ellipse(215, 235, 18, 18);
-   ellipse(135, 215, 18, 18);
-   ellipse(383, 215, 18, 18);
-   ellipse(300, 235, 18, 18);
+   ellipse(505, 295, 18, 18);
+   ellipse(425, 275, 18, 18);
+   ellipse(673, 275, 18, 18);
+   ellipse(590, 295, 18, 18);
 
 
 }
