@@ -91,8 +91,27 @@ function draw() {
 			fill(168, 176, 164);
 			ellipse(348, 66, 5, 5);
 			ellipse(362, 66, 5, 5);
+			//draw alien 3
+			fill(250, 0, 254);
+			ellipse(155, 270, 30, 40);
+			ellipse(155, 315, 40, 60);
+			ellipse(145, 340, 10, 40);
+			ellipse(165, 340, 10, 40);
+			ellipse(145, 305, 40, 10);
+			ellipse(165, 305, 40, 10);
+			ellipse(147, 250, 5, 20);
+			ellipse(163, 250, 5, 20);
+			ellipse(147, 240, 8, 8);
+			ellipse(163, 240, 8, 8);
+			fill(22, 23, 21);
+			ellipse(148, 266, 11, 15);
+			ellipse(162, 266, 11, 15);
+			ellipse(156, 280, 14, 9);
+			fill(168, 176, 164);
+			ellipse(148, 266, 5, 5);
+			ellipse(162, 266, 5, 5);
 
 		}
 
-		noLoop();
+	noLoop();
 }
