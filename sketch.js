@@ -9,7 +9,7 @@ function draw() {
 	noStroke();
 	background(167, 213, 242);
 	var uFo = random(0,1);
-	console.log("The random value is: " + uFo);
+	console.log("The random uFo value is: " + uFo);
   // draw UFO
 		if (uFo > 0.5) {
 			fill(54,126,199);
@@ -34,7 +34,7 @@ function draw() {
 			ellipse(280, 215, 18, 18);
 		} else {
 			//draw bg
-			fill(255,255,0);
+			fill(0,21,61);
 			rect(0,0,width,height);
 
 			// drawing UFO 2
@@ -54,8 +54,12 @@ function draw() {
 			ellipse(425, 275, 18, 18);
 			ellipse(673, 275, 18, 18);
 			ellipse(590, 295, 18, 18);
+    }
 
+		var aLiens = random(0,1);
+		console.log("The random aLiens value is: " + aLiens);
 			//drawing Alien 1
+		if (aLiens < 0.5) {
 			fill(30, 199, 24);
 			ellipse(555, 70, 30, 40);
 			ellipse(555, 115, 40, 60);
@@ -93,6 +97,16 @@ function draw() {
 			fill(168, 176, 164);
 			ellipse(348, 66, 5, 5);
 			ellipse(362, 66, 5, 5);
+			} else {
+				fill(22, 23, 21);
+				ellipse(448, 66, 21, 25);
+				ellipse(362, 66, 21, 25);
+				ellipse(356, 80, 24, 19);
+				fill(168, 176, 164);
+				ellipse(348, 66, 15, 15);
+				ellipse(362, 66, 15, 15);
+
 		}
+	
 		noLoop();
 }
