@@ -1,15 +1,22 @@
 function setup() {
-	createCanvas(640, 480);
-	noStroke();
+	// create a place to draw
+	createCanvas(700, 380)
 
 }
 
 function draw() {
+	// clear the background
+	noStroke();
+background(167, 213, 242);
 
-	var backGround = random(1);
+
+	// set a fill color
+	fill(242, 242, 242);
+
+var backGround = random(1);
 
 	// draw background
-	if (backGround < 0.8) {
+if (backGround < 0.8) {
 		// day
 		background(13, 12, 12);
 		fill(12, 12, 12);
