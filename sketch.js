@@ -318,6 +318,16 @@ function drawAlien5() {
 	ellipse(462, 166, 5, 5);
  }
 
+function drawText() {
+	//draw bg
+	fill(13,13,13);
+	rect(0,0,width,height);
+  fill(214, 13, 13);
+	textSize(80);
+  text("TheEnd", 50, 50);
+
+}
+
 function draw() {
 	// clear the background
 	noStroke();
@@ -325,18 +335,20 @@ function draw() {
 	var uFo = random(0,1);
 	console.log("The random uFo value is: " + uFo);
   // draw UFO
-		if (uFo > 0 && uFo < 0.25) {
+		if (uFo > 0 && uFo < 0.20) {
 			drawUfo1();
 
-		} else if (uFo > 0.26 && uFo < 0.50) {
+		} else if (uFo > 0.21 && uFo < 0.45) {
 			drawUfo2();
-		} else if (uFo > 0.51 && uFo < 0.75) {
+		} else if (uFo > 0.46 && uFo < 0.60) {
 			drawAlien1();
 			drawAlien3();
-		} else {
+		} else if (uFo > 0.61 && uFo < 0.85) {
 			drawAlien2();
 			drawAlien4();
 			drawAlien5();
+		} else {
+			drawText();
 
 		}
 
