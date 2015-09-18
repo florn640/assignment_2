@@ -33,21 +33,21 @@ function drawUfo2() {
 
 	// drawing UFO 2
 	fill(107, 112, 105);
-	ellipse(550, 240, 150, 140);
-	ellipse(548, 270, 290, 90);
+	ellipse(450, 240, 150, 140);
+	ellipse(448, 270, 290, 90);
 	fill(22, 23, 21);
-	ellipse(551, 227, 120, 90);
+	ellipse(451, 227, 120, 90);
 	fill(107, 112, 105);
-	ellipse(548, 270, 290, 90);
+	ellipse(448, 270, 290, 90);
 	fill(246, 246, 246);
-	ellipse(548, 295, 20, 20);
-	ellipse(465, 288, 20, 20);
-	ellipse(630, 288, 20, 20);
+	ellipse(448, 295, 20, 20);
+	ellipse(365, 288, 20, 20);
+	ellipse(530, 288, 20, 20);
 	fill(255, 244, 24);
-	ellipse(505, 295, 18, 18);
-	ellipse(425, 275, 18, 18);
-	ellipse(673, 275, 18, 18);
-	ellipse(590, 295, 18, 18);
+	ellipse(405, 295, 18, 18);
+	ellipse(325, 275, 18, 18);
+	ellipse(573, 275, 18, 18);
+	ellipse(490, 295, 18, 18);
 
 }
 function drawAlien1() {
@@ -136,6 +136,26 @@ function drawAlien4() {
 	ellipse(262, 166, 5, 5);
 
 }
+function drawAlien5() {
+	fill(255, 81, 214);
+	ellipse(455, 170, 30, 40);
+	ellipse(455, 215, 40, 60);
+	ellipse(445, 240, 10, 40);
+	ellipse(465, 240, 10, 40);
+	ellipse(445, 205, 40, 10);
+	ellipse(465, 205, 40, 10);
+	ellipse(447, 150, 5, 20);
+	ellipse(463, 150, 5, 20);
+	ellipse(447, 140, 8, 8);
+	ellipse(463, 140, 8, 8);
+	fill(22, 23, 21);
+	ellipse(448, 166, 11, 15);
+	ellipse(462, 166, 11, 15);
+	ellipse(456, 180, 14, 9);
+	fill(168, 176, 164);
+	ellipse(448, 166, 5, 5);
+	ellipse(462, 166, 5, 5);
+ }
 
 function draw() {
 	// clear the background
@@ -155,6 +175,8 @@ function draw() {
 		} else {
 			drawAlien2();
 			drawAlien4();
+			drawAlien5();
+
 		}
 
 	noLoop();
