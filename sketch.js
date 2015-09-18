@@ -155,7 +155,10 @@ function drawUfo2() {
 
 }
 function drawAlien1() {
-	fill(30, 199, 24);
+	//draw bg
+	fill(0,21,61);
+	rect(0,0,width,height);
+	fill(255, 1, 15);
 	ellipse(555, 70, 30, 40);
 	ellipse(555, 115, 40, 60);
 	ellipse(545, 140, 10, 40);
@@ -176,6 +179,42 @@ function drawAlien1() {
 }
 
 function drawAlien2() {
+	//draw raibow
+	fill(255, 0, 0);
+	ellipse(350, 330, 650, 550);
+	fill(255, 148, 0);
+	ellipse(350, 331, 600, 500);
+	fill(255, 255, 0);
+	ellipse(350, 332, 550, 450);
+	fill(44, 202, 0);
+	ellipse(350, 333, 500, 400);
+	fill(62, 39, 193);
+	ellipse(350, 334, 450, 350);
+	fill(110, 17, 163);
+	ellipse(350, 335, 400, 300);
+	fill(251, 64, 208);
+	ellipse(350, 336, 350, 250);
+	fill(167, 213, 242);
+	ellipse(350, 337, 300, 200);
+  //rainbow clouds
+fill(246, 246, 246);
+noStroke()
+	ellipse(575, 390, 100, 100);
+	ellipse(600, 380, 100, 100);
+	ellipse(550, 350, 100, 100)
+	ellipse(550, 380, 100, 100)
+	ellipse(570, 333, 100, 100)
+	ellipse(510, 365, 100, 100)
+	ellipse(540, 360, 80, 80)
+	ellipse(525, 333, 100, 100)
+	ellipse(520, 360, 80, 80)
+	ellipse(500, 335, 80, 80)
+	ellipse(480, 345, 80, 80)
+	ellipse(530, 500, 90, 90)
+	ellipse(495, 380, 100, 100)
+	ellipse(600, 350, 90, 90)
+	ellipse(565, 370, 80, 80)
+
 	//draw Alien 2
 	fill(155, 65, 191);
 	ellipse(355, 70, 30, 40);
