@@ -11,7 +11,14 @@ background(167, 213, 242);
 
 
 	// set a fill color
-	fill(31, 161, 255);
+//	fill(31, 161, 255);
+
+	var backGroundco = random (0, 1);
+	if (backGroundco > 0.5) {
+	fill(1, 16, 255);
+} else {
+	fill(31, 11, 30);
+
 
 //var uFo = random(0,1);
   // draw UFO
