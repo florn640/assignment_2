@@ -1,7 +1,7 @@
 function setup() {
 	// create a place to draw
 	createCanvas(700, 380)
-	// frameRate(4);
+	 //frameRate(60);
 }
 
 function drawUfo1() {
