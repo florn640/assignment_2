@@ -320,11 +320,14 @@ function drawAlien5() {
 
 function drawText() {
 	//draw bg
-	fill(13,13,13);
+	fill(0,0,0);
 	rect(0,0,width,height);
-  fill(214, 13, 13);
+  fill(255, 13, 13);
 	textSize(80);
-  text("TheEnd", 50, 50);
+	textFont("OCR A Std");
+  text("THE END", 150, 200);
+	textSize(20);
+	text("by Natalia Flores", 450, 370);
 
 }
 
