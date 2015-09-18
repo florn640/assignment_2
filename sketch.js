@@ -26,6 +26,24 @@ function drawUfo1() {
 		ellipse(295, 230, 50, 50)
 		ellipse(180, 200, 40, 40);
 		ellipse(225, 200, 30, 30)
+
+		ellipse(80, 120, 55, 55);
+		ellipse(175, 160, 50, 50);
+		ellipse(90, 160, 50, 50);
+		ellipse(140, 130, 50, 50)
+		ellipse(140, 160, 50, 50)
+		ellipse(160, 113, 50, 50)
+		ellipse(100, 145, 50, 50)
+		ellipse(130, 140, 30, 30)
+		ellipse(115, 113, 50, 50)
+		ellipse(110, 140, 30, 30)
+		ellipse(90, 115, 30, 30)
+		ellipse(85, 125, 30, 30)
+		ellipse(120, 180, 40, 40)
+		ellipse(85, 160, 50, 50)
+		ellipse(190, 130, 40, 40);
+		ellipse(155, 150, 30, 30)
+
 		//actual ufo
 	fill(107, 112, 105);
 	ellipse(240, 160, 150, 140);
@@ -94,6 +112,23 @@ function drawUfo1() {
 		ellipse(395, 80, 50, 50)
 		ellipse(500, 50, 40, 40);
 		ellipse(465, 70, 30, 30)
+
+		ellipse(190, 340, 55, 55);
+		ellipse(285, 380, 50, 50);
+		ellipse(200, 380, 50, 50);
+		ellipse(250, 350, 50, 50)
+		ellipse(250, 380, 50, 50)
+		ellipse(270, 333, 50, 50)
+		ellipse(210, 365, 50, 50)
+		ellipse(240, 360, 30, 30)
+		ellipse(225, 333, 50, 50)
+		ellipse(220, 360, 30, 30)
+		ellipse(200, 335, 30, 30)
+		ellipse(195, 345, 30, 30)
+		ellipse(230, 400, 40, 40)
+		ellipse(195, 380, 50, 50)
+		ellipse(300, 350, 40, 40);
+		ellipse(265, 370, 30, 30)
 }
 function drawUfo2() {
 	//draw bg
