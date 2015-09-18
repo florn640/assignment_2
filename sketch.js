@@ -199,21 +199,39 @@ function drawAlien2() {
   //rainbow clouds
 fill(246, 246, 246);
 noStroke()
-	ellipse(575, 390, 100, 100);
-	ellipse(600, 380, 100, 100);
-	ellipse(550, 350, 100, 100)
-	ellipse(550, 380, 100, 100)
-	ellipse(570, 333, 100, 100)
-	ellipse(510, 365, 100, 100)
-	ellipse(540, 360, 80, 80)
-	ellipse(525, 333, 100, 100)
-	ellipse(520, 360, 80, 80)
-	ellipse(500, 335, 80, 80)
-	ellipse(480, 345, 80, 80)
-	ellipse(530, 500, 90, 90)
-	ellipse(495, 380, 100, 100)
-	ellipse(600, 350, 90, 90)
-	ellipse(565, 370, 80, 80)
+	ellipse(615, 400, 100, 100);
+	ellipse(640, 390, 100, 100);
+	ellipse(590, 360, 100, 100)
+	ellipse(590, 390, 100, 100)
+	ellipse(610, 343, 100, 100)
+	ellipse(550, 375, 100, 100)
+	ellipse(590, 370, 80, 80)
+	ellipse(565, 343, 100, 100)
+	ellipse(560, 370, 80, 80)
+	ellipse(560, 345, 80, 80)
+	ellipse(520, 355, 80, 80)
+	ellipse(570, 510, 90, 90)
+	ellipse(535, 390, 100, 100)
+	ellipse(640, 360, 90, 90)
+	ellipse(605, 380, 80, 80)
+	ellipse(662, 375, 70, 70)
+
+	ellipse(135, 400, 100, 100);
+	ellipse(160, 390, 100, 100);
+	ellipse(110, 360, 100, 100)
+	ellipse(110, 390, 100, 100)
+	ellipse(130, 343, 100, 100)
+	ellipse(70, 375, 100, 100)
+	ellipse(110, 370, 80, 80)
+	ellipse(85, 343, 100, 100)
+	ellipse(80, 370, 80, 80)
+	ellipse(80, 345, 80, 80)
+	ellipse(40, 355, 80, 80)
+	ellipse(90, 510, 90, 90)
+	ellipse(55, 390, 100, 100)
+	ellipse(160, 360, 90, 90)
+	ellipse(125, 380, 80, 80)
+	ellipse(182, 375, 70, 70)
 
 	//draw Alien 2
 	fill(155, 65, 191);
