@@ -9,6 +9,24 @@ function drawUfo1() {
 	rect(0,0,width,height);
 
 	// drawing UFO 1
+	//first cloud
+	fill(246, 246, 246);
+  noStroke()
+		ellipse(380, 220, 50, 50);
+		ellipse(350, 200, 50, 50)
+		ellipse(350, 230, 50, 50)
+		ellipse(370, 183, 50, 50)
+		ellipse(310, 215, 50, 50)
+		ellipse(340, 210, 30, 30)
+		ellipse(325, 183, 50, 50)
+		ellipse(320, 210, 30, 30)
+		ellipse(300, 185, 30, 30)
+		ellipse(280, 195, 30, 30)
+		ellipse(330, 250, 40, 40)
+		ellipse(295, 230, 50, 50)
+		ellipse(180, 200, 40, 40);
+		ellipse(225, 200, 30, 30)
+		//actual ufo
 	fill(107, 112, 105);
 	ellipse(240, 160, 150, 140);
 	ellipse(238, 190, 290, 90);
@@ -25,7 +43,7 @@ function drawUfo1() {
 	ellipse(115, 195, 18, 18);
 	ellipse(363, 195, 18, 18);
 	ellipse(280, 215, 18, 18);
-
+ //more clouds
 	fill(246, 246, 246);
   noStroke()
 		ellipse(675, 190, 70, 70);
@@ -60,7 +78,8 @@ function drawUfo1() {
 		ellipse(600, 350, 40, 40);
 		ellipse(565, 370, 30, 30)
 
-		ellipse(475, 80, 60, 60);
+    ellipse(390, 40, 55, 55);
+		ellipse(485, 80, 50, 50);
 		ellipse(400, 80, 50, 50);
 		ellipse(450, 50, 50, 50)
 		ellipse(450, 80, 50, 50)
@@ -70,7 +89,7 @@ function drawUfo1() {
 		ellipse(425, 33, 50, 50)
 		ellipse(420, 60, 30, 30)
 		ellipse(400, 35, 30, 30)
-		ellipse(380, 45, 30, 30)
+		ellipse(395, 45, 30, 30)
 		ellipse(430, 100, 40, 40)
 		ellipse(395, 80, 50, 50)
 		ellipse(500, 50, 40, 40);
